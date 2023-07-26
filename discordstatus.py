@@ -28,7 +28,7 @@ class Main:
   def set_status(self, status):
     headers = {
       "Authorization":
-      "NTYzODQ4OTg3NjM2MDA2OTM0.GCvQwN.t8iVHIQMPq4tVNFD2PjFc4NPt_Uydwp-b4uUxk", #fill this in
+      "TOKEN", #fill this in
       "Content-Type": "application/json"
     }
     data = {"custom_status": {"text": status, "emoji_name": "🎉"}}
